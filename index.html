@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="vieport" content="width=device-width, initial-scale=1.0">
+        <title>PRMA</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<div class="container"> 
+
+</div>
+
+<div id="modelBox">
+    <img src="image/prama.png" width="100%">
+    <div class="offer-text">
+        <h2>PRMA</h2>
+        <small>BARISTA / 3D ART/ DESIGNER </small>
+        <p> Prama Danu Adalah Seorang Pria berusia 26 Tahun yang sekarang lagi berusaha
+            mencari uang demi kelangsungan hidup
+        </p>
+        <form> 
+            <input type="email" placeholder="Email Address">
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+    <img src="image/close.png" class="close-icon" onclick="closemodel ()">
+</div>
+<script> 
+let modelBox = document.getElementById("modelBox");
+
+document.onmouseleave = function (){
+    modelBox.style.display ="block" ;
+}
+
+function closemodel (){
+    modelBox.style.display ="none"
+}
+</script>
+    </body>
+</html>
